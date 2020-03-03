@@ -140,8 +140,6 @@ class PublicBuySellViewController: UIViewController, ChartViewDelegate {
         line1.lineWidth = 3
         line1.circleRadius = 3
         line1.drawCircleHoleEnabled = false
-        line1.setColor( hexStringToUIColor(hex: "#82ca9d") )
-        line1.setCircleColor(hexStringToUIColor(hex: "#82ca9d") )
         let data = LineChartData()
         data.addDataSet(line1)
         chartView.xAxis.labelPosition = .bottom
